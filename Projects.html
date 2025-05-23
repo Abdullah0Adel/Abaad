@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Page</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts  (El-Messiri)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=El+Messiri:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"></head>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style-9.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+<!-- Start Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-light  nav-2">
+    <div class="container">
+      <a class="navbar-brand" href="./Home-page.html"><img src="./images/Abaad-Logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-2">
+            <a class="nav-link page-hov"  href="./Home-page.html">الرئيسية</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link page-hov active position-relative" aria-current="page" href="./Projects.html">المشروعات</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link page-hov" href="./AboutUs.html">من نحن؟!</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link page-hov" href="./SaleWithUs.html">للبيع من خلالنا</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle arabic fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>ع</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">عربي</a></li>
+              <li><a class="dropdown-item" href="#">English</a></li>
+            </ul>
+          </li>
+        </ul>
+          <a href="./ContactUs.html"><button class="btn btn-outline rounded-pill btn-abaad" type="submit">تواصل اللآن</button></a>
+
+      </div>
+    </div>
+  </nav>
+<!-- End Nav Bar -->
+
+<!-- Top side -->
+ <div class="projects-topside container d-flex align-items-end">
+  <div class="w-50">
+  <img src="./images/logoWshadow.png" alt="">
+  </div>
+  <h1 class="w-50 text-end">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة </h1>
+ </div>
+ <!-- End Top side -->
+ 
+ <div class="bg-project pb-5 position-relative">
+<!-- Start Project Nav -->
+<div class="projectNav my-5 p-3">
+<div class="container d-flex flex-column justify-content-start flex-md-row justify-content-md-space-between align-items-center gap-2">
+  <label class="w-50 mx-auto d-flex justify-content-center position-relative" for="">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  <input class="w-50 m-auto" type="text" placeholder="بحث">
+  </label>
+  <div class="w-md-50 w-100 d-flex justify-content-center align-items-center gap-5">
+  
+    <div class=" dropdown d-flex flex-column gap-1"type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="text-end fw-bold">السعر</div>
+    <div class="d-flex align-items-center gap-1">
+      <i class="fa-solid fa-caret-down"></i>
+      <p class="mb-0">بين 1 ريال إلي  50 الف ريال</p>
+    </div>
+  </div>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">بين 1 ريال إلي  50 الف ريال</a></li>
+  </ul>
+
+  <div class=" dropdown d-flex flex-column gap-1"type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="text-end fw-bold">نوع العقار</div>
+    <div class="d-flex align-items-center gap-1">
+      <i class="fa-solid fa-caret-down"></i>
+      <p class="mb-0">فيلا، شقة،....</p>
+    </div>
+  </div>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">فيلا</a></li>
+    <li><a class="dropdown-item" href="#">شقة</a></li>
+  </ul>
+
+  <div class=" dropdown d-flex flex-column gap-1"type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="text-end fw-bold">الموقع</div>
+    <div class="d-flex align-items-center gap-1">
+      <i class="fa-solid fa-caret-down"></i>
+      <p class="mb-0">اختار الموقع المناسب لك</p>
+    </div>
+  </div>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">اختار الموقع المناسب لك</a></li>
+  </ul>
+
+</div>
+  </div>
+</div>
+<!-- End Project Nav -->
+
+
+<!-- Start Projects Slider -->
+
+<div class="Project-slide mt-5 container position-relative">
+  
+  <i class="fa-solid fa-circle-arrow-left fs-4"></i>
+
+  <div class="Project-slide-xs d-flex justify-content-space-between gap-3 flex-lg-row  flex-column align-items-sm-center">
+    <div  class="p-3 project-img  d-flex flex-column justify-content-end">
+      <a href="./Unit-Page.html" class="d-flex h-25 justify-content-space-between">
+      <svg class="align-self-end" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="14.9472" cy="15.3706" r="14.718" fill="white"/>
+        <path d="M20.5314 10.8776C20.5314 10.3253 20.0837 9.87761 19.5314 9.87761L10.5314 9.87761C9.97913 9.87761 9.53142 10.3253 9.53142 10.8776C9.53142 11.4299 9.97913 11.8776 10.5314 11.8776L18.5314 11.8776L18.5314 19.8776C18.5314 20.4299 18.9791 20.8776 19.5314 20.8776C20.0837 20.8776 20.5314 20.4299 20.5314 19.8776L20.5314 10.8776ZM11.2526 20.5706L20.2385 11.5847L18.8243 10.1705L9.83839 19.1564L11.2526 20.5706Z" fill="#0756A5"/>
+        </svg>
+      <div class="text-end d-flex flex-column w-100 align-self-end">
+        <h4 class="project-img-title text-end fw-bold">الريان</h4>
+        <p class="w-50 align-self-end">بتقدم الشركة خدمات تصميم مخصصة للأثاث و تتيح للعملاء</p>
+      </div></a>
+    </div>
+
+    <div  class="slide-none p-3 project-img d-flex flex-column justify-content-end">
+      <a href="./Unit-Page.html" class="d-flex h-25 justify-content-space-between">
+      <svg class="align-self-end" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="14.9472" cy="15.3706" r="14.718" fill="white"/>
+        <path d="M20.5314 10.8776C20.5314 10.3253 20.0837 9.87761 19.5314 9.87761L10.5314 9.87761C9.97913 9.87761 9.53142 10.3253 9.53142 10.8776C9.53142 11.4299 9.97913 11.8776 10.5314 11.8776L18.5314 11.8776L18.5314 19.8776C18.5314 20.4299 18.9791 20.8776 19.5314 20.8776C20.0837 20.8776 20.5314 20.4299 20.5314 19.8776L20.5314 10.8776ZM11.2526 20.5706L20.2385 11.5847L18.8243 10.1705L9.83839 19.1564L11.2526 20.5706Z" fill="#0756A5"/>
+        </svg>
+      <div class="text-end d-flex flex-column w-100 align-self-end">
+        <h4 class="project-img-title text-end fw-bold">المروة</h4>
+        <p class="w-50 align-self-end">بتقدم الشركة خدمات تصميم مخصصة للأثاث و تتيح للعملاء</p>
+      </div></a>
+    </div>
+
+    <div  class="slide-none p-3 project-img  d-flex flex-column justify-content-end">
+      <a href="./Unit-Page.html" class="d-flex h-25 justify-content-space-between">
+      <svg class="align-self-end" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="14.9472" cy="15.3706" r="14.718" fill="white"/>
+        <path d="M20.5314 10.8776C20.5314 10.3253 20.0837 9.87761 19.5314 9.87761L10.5314 9.87761C9.97913 9.87761 9.53142 10.3253 9.53142 10.8776C9.53142 11.4299 9.97913 11.8776 10.5314 11.8776L18.5314 11.8776L18.5314 19.8776C18.5314 20.4299 18.9791 20.8776 19.5314 20.8776C20.0837 20.8776 20.5314 20.4299 20.5314 19.8776L20.5314 10.8776ZM11.2526 20.5706L20.2385 11.5847L18.8243 10.1705L9.83839 19.1564L11.2526 20.5706Z" fill="#0756A5"/>
+        </svg>
+      <div class="text-end d-flex flex-column w-100 align-self-end">
+        <h4 class="project-img-title text-end fw-bold">الصفا</h4>
+        <p class="w-50 align-self-end">بتقدم الشركة خدمات تصميم مخصصة للأثاث و تتيح للعملاء</p>
+      </div></a>
+    </div>
+    </div>
+    <i class="fa-solid fa-circle-arrow-right fs-4"></i>
+</div>  
+<!-- End Projects Slider -->
+
+
+<!-- Start Cards -->
+<div class="Project-slide-title container my-5 ">
+
+  <div class="repetitve-line d-flex justify-content-center  align-items-center gap-4 w-100">
+    <div class="line w-25 h-0 d-flex justify-content-end"><div></div></div>
+    <p class="fs-4 mb-0 text-end ">مشاريعنا</p>
+    <div class="line w-25 h-0 d-flex justify-content-start"><div></div></div>
+
+  </div>
+  <div class="Project-slide-title container mb-5 d-flex flex-lg-row flex-column-reverse justify-content-space-between flex-lg-row flex-md-row flex-sm-column-reverse align-items-sm-end gap-3 my-5">
+  <div class="Project-slide-title-leftSide d-flex flex-column align-items-lg-start align-items-md-start align-items-sm-end gap-5 ">
+    <p class="text-lg-start text-end align-self-md-start align-self-end  w-50  text-sm-end">
+      بنفخر بتقديم تجربة عملاء راضين وشهادات نجاح
+      ملهمة بتعكس جودة خدماتنا وتقديم حلول مبتكرة
+      واقتصادية لتحقيق أعلى قيمة  بأسلوب فعّال وموثوق
+    </p>
+  </div>
+  <div class="Project-slide-title-rightSide flex-grow-3 w-lg-50 w-sm-100 d-flex flex-column gap-5">
+    <h1 class="text-end fw-bold w-100">أعلى <span>مستويات</span>
+      الجودة والاحترافية
+    </h1>
+  </div>
+</div>
+</div>
+<!-- *********** -->
+<div class="projects-cards container mb-5">
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div class="">
+          <div class="bg-card"></div>
+          <div class="card-details p-3 d-flex flex-column gap-2">
+            <div class="name-card d-flex justify-content-space-between align-items-center">
+              <div class="selling-bar d-flex flex-column w-50">
+                <div class="precentage-bar d-flex justify-content-space-between">
+                  <p class="w-50 m-1">75 % غير مٌباع</p>
+                  <p class="w-50 text-end m-1">25 % مٌباع</p>
+                </div>
+                <div class="the-bar w-100 rounded-pill d-flex justify-content-end">
+                  <div class="blue-bar w-25 rounded-pill"></div>
+                </div>
+              </div>
+              <p class="w-50 mb-0 text-end fs-2 fw-bold">الريــــــــــــان</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">6.250.000 - 9.500.000</p>
+              <p class="w-50 text-end">السعر</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">416 - 632م</p>
+              <p class="w-50 text-end">المساحات</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">تبدأ من 3</p>
+              <p class="w-50 text-end">الغرف</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">توفر</p>
+              <p class="w-50 text-end">مميزات</p>
+            </div>
+          </div>
+          <div class="w-100 align-self-lg-start align-self-md-start align-self-sm-end "><a  href="./Unit-Page.html"><button class="card-btn white-btn w-100  p-2 btn btn-outline-second fw-bold">تفاصيل</button></a></div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div class="">
+          <div class="bg-card"></div>
+          <div class="card-details p-3 d-flex flex-column gap-2">
+            <div class="name-card d-flex justify-content-space-between align-items-center">
+              <div class="selling-bar d-flex flex-column w-50">
+                <div class="precentage-bar d-flex justify-content-space-between">
+                  <p class="w-50 m-1">75 % غير مٌباع</p>
+                  <p class="w-50 text-end m-1">25 % مٌباع</p>
+                </div>
+                <div class="the-bar w-100 rounded-pill d-flex justify-content-end">
+                  <div class="blue-bar w-25 rounded-pill"></div>
+                </div>
+              </div>
+              <p class="w-50 mb-0 text-end fs-2 fw-bold">الريــــــــــــان</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">6.250.000 - 9.500.000</p>
+              <p class="w-50 text-end">السعر</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">416 - 632م</p>
+              <p class="w-50 text-end">المساحات</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">تبدأ من 3</p>
+              <p class="w-50 text-end">الغرف</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">توفر</p>
+              <p class="w-50 text-end">مميزات</p>
+            </div>
+          </div>
+          <div class="w-100 align-self-lg-start align-self-md-start align-self-sm-end "><a  href="./Unit-Page.html"><button class="card-btn white-btn w-100  p-2 btn btn-outline-second fw-bold">تفاصيل</button></a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div class="">
+          <div class="bg-card"></div>
+          <div class="card-details p-3 d-flex flex-column gap-2">
+            <div class="name-card d-flex justify-content-space-between align-items-center">
+              <div class="selling-bar d-flex flex-column w-50">
+                <div class="precentage-bar d-flex justify-content-space-between">
+                  <p class="w-50 m-1">75 % غير مٌباع</p>
+                  <p class="w-50 text-end m-1">25 % مٌباع</p>
+                </div>
+                <div class="the-bar w-100 rounded-pill d-flex justify-content-end">
+                  <div class="blue-bar w-25 rounded-pill"></div>
+                </div>
+              </div>
+              <p class="w-50 mb-0 text-end fs-2 fw-bold">الريــــــــــــان</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">6.250.000 - 9.500.000</p>
+              <p class="w-50 text-end">السعر</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">416 - 632م</p>
+              <p class="w-50 text-end">المساحات</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">تبدأ من 3</p>
+              <p class="w-50 text-end">الغرف</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">توفر</p>
+              <p class="w-50 text-end">مميزات</p>
+            </div>
+          </div>
+          <div class="w-100 align-self-lg-start align-self-md-start align-self-sm-end "><a  href="./Unit-Page.html"><button class="card-btn white-btn w-100  p-2 btn btn-outline-second fw-bold">تفاصيل</button></a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div class="">
+          <div class="bg-card"></div>
+          <div class="card-details p-3 d-flex flex-column gap-2">
+            <div class="name-card d-flex justify-content-space-between align-items-center">
+              <div class="selling-bar d-flex flex-column w-50">
+                <div class="precentage-bar d-flex justify-content-space-between">
+                  <p class="w-50 m-1">75 % غير مٌباع</p>
+                  <p class="w-50 text-end m-1">25 % مٌباع</p>
+                </div>
+                <div class="the-bar w-100 rounded-pill d-flex justify-content-end">
+                  <div class="blue-bar w-25 rounded-pill"></div>
+                </div>
+              </div>
+              <p class="w-50 mb-0 text-end fs-2 fw-bold">الريــــــــــــان</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">6.250.000 - 9.500.000</p>
+              <p class="w-50 text-end">السعر</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">416 - 632م</p>
+              <p class="w-50 text-end">المساحات</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">تبدأ من 3</p>
+              <p class="w-50 text-end">الغرف</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">توفر</p>
+              <p class="w-50 text-end">مميزات</p>
+            </div>
+          </div>
+          <div class="w-100 align-self-lg-start align-self-md-start align-self-sm-end "><a  href="./Unit-Page.html"><button class="card-btn white-btn w-100  p-2 btn btn-outline-second fw-bold">تفاصيل</button></a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div class="">
+          <div class="bg-card"></div>
+          <div class="card-details p-3 d-flex flex-column gap-2">
+            <div class="name-card d-flex justify-content-space-between align-items-center">
+              <div class="selling-bar d-flex flex-column w-50">
+                <div class="precentage-bar d-flex justify-content-space-between">
+                  <p class="w-50 m-1">75 % غير مٌباع</p>
+                  <p class="w-50 text-end m-1">25 % مٌباع</p>
+                </div>
+                <div class="the-bar w-100 rounded-pill d-flex justify-content-end">
+                  <div class="blue-bar w-25 rounded-pill"></div>
+                </div>
+              </div>
+              <p class="w-50 mb-0 text-end fs-2 fw-bold">الريــــــــــــان</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">6.250.000 - 9.500.000</p>
+              <p class="w-50 text-end">السعر</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">416 - 632م</p>
+              <p class="w-50 text-end">المساحات</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">تبدأ من 3</p>
+              <p class="w-50 text-end">الغرف</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">توفر</p>
+              <p class="w-50 text-end">مميزات</p>
+            </div>
+          </div>
+          <div class="w-100 align-self-lg-start align-self-md-start align-self-sm-end "><a  href="./Unit-Page.html"><button class="card-btn white-btn w-100  p-2 btn btn-outline-second fw-bold">تفاصيل</button></a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div class="">
+          <div class="bg-card"></div>
+          <div class="card-details p-3 d-flex flex-column gap-2">
+            <div class="name-card d-flex justify-content-space-between align-items-center">
+              <div class="selling-bar d-flex flex-column w-50">
+                <div class="precentage-bar d-flex justify-content-space-between">
+                  <p class="w-50 m-1">75 % غير مٌباع</p>
+                  <p class="w-50 text-end m-1">25 % مٌباع</p>
+                </div>
+                <div class="the-bar w-100 rounded-pill d-flex justify-content-end">
+                  <div class="blue-bar w-25 rounded-pill"></div>
+                </div>
+              </div>
+              <p class="w-50 mb-0 text-end fs-2 fw-bold">الريــــــــــــان</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">6.250.000 - 9.500.000</p>
+              <p class="w-50 text-end">السعر</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">416 - 632م</p>
+              <p class="w-50 text-end">المساحات</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">تبدأ من 3</p>
+              <p class="w-50 text-end">الغرف</p>
+            </div>
+            <div class="price d-flex justify-content-space-between">
+              <p class="w-50">توفر</p>
+              <p class="w-50 text-end">مميزات</p>
+            </div>
+          </div>
+          <div class="w-100 align-self-lg-start align-self-md-start align-self-sm-end "><a  href="./Unit-Page.html"><button class="card-btn white-btn w-100  p-2 btn btn-outline-second fw-bold">تفاصيل</button></a></div>
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+
+<!-- End Cards -->
+<div class=" project-page-btn m-auto"><a  href="./Projects.html"><button class="card-btn blue-btn w-100  p-3 btn rounded-pill btn-outline-second fw-bold">المزيد</button></a></div>
+</div><!-- bg-project -->
+
+
+<!-- Start Section  ( section 7 form homepage) -->
+ <div class="p-5">
+<div class="raise container my-5 position-relative">
+  <div class="d-flex flex-column align-items-center justify-content-center gap-3 p-4 ">
+    <h1 class="w-50 text-center fs-sm-1 fw-bold">
+      ارتقي بأهدافك للمستـــوى التـــالي الآن
+      
+    </h1>
+    <p class="fs-4 text-center">معك من حجرك الأول الى استلام مفتاحك</p>
+    <div class="raise-btn w-25"><a class="" href="./ContactUs.html"><button class="w-100 mx-auto brows-our-projects rounded-pill p-2 btn btn-outline-second fw-bold">تواصل معنا</button></a></div>
+  </div>
+  <img class="h-100 d-inline" src="./images/overFlowHidden.png" alt="">
+ </div>
+</div>
+<!-- End Section ( section 7 form homepage) -->
+
+
+
+
+<!-- Start Footer -->
+<footer>
+  <div class="container py-5">
+   <div class="footer-top d-flex flex-lg-row flex-row-reverse justify-content-lg-space-between w-100 gap-5">
+     <ul class="w-75 m-0 p-0 d-flex flex-lg-row flex-column align-items-sm-end justify-content-space-between justify-self-start gap-4 align-items-center">
+       <li class="align-self-end"><a class="w-100" href="">الخصوصية</a></li>
+       <li class="align-self-end text-end"><a class="w-100" href="">الشروط والأحكام</a></li>
+       <li class="align-self-end text-end"><a class="w-100" href="./SaleWithUs.html">للبيع من خلالنا</a></li>
+       <li class="align-self-end"><a class="w-100" href="./AboutUs.html">من نحن؟!</a></li>
+       <li class="align-self-end"><a class="w-100" href="./Projects.html">المشروعات</a></li>
+       <li class="align-self-end"><a class="w-100" href="./Home-page.html">الرئيسية</a></li>
+     </ul>
+     <img class="justify-self-end" src="./images/footerLogo.png" alt="">
+   </div>
+ 
+   <div class="footer-med d-flex flex-lg-row flex-column justify-content-space-between align-items-end gap-5 my-5">
+     <div class="footer-med-left w-100 d-flex align-items-end">
+       <i class="fa-solid fa-arrow-up mb-4"></i>
+     <p class="text-end w-lg-75 w-100">
+        احصل على تصميمات مخصصة
+       تلبي احتياجات عملك بشكل مثالي واستمتع
+       بالحياة بدون تعب مع خدماتنا الاستثنائية
+       </p>
+       </div>
+ 
+       <div class="footer-med-right text-end w-50">
+         <p>+20 101 444 8644</p>
+         <p>info@setupegypt.com</p>
+         <p>Villa 6, ​Block 18065, 9th District, El Obour City, Egypt</p>
+       </div>
+   </div>
+ 
+   <div class="footer-bottom d-flex flex-column-reverse flex-lg-row align-items-center justify-content-space-between gap-5 pt-4">
+     <div class="copyright w-100 text-center">
+       &copy;2023 The Paddock INC. All Rights Reserved
+     </div>
+     <div class="scial-media w-50 d-flex justify-content-end gap-5">
+       <i class="fa-brands fa-facebook"></i>
+       <i class="fa-brands fa-youtube"></i>
+       <i class="fa-brands fa-linkedin"></i>
+       <i class="fa-brands fa-instagram"></i>
+     </div>
+   </div>
+ 
+  </div>
+ </footer>
+<!-- End Footer -->
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

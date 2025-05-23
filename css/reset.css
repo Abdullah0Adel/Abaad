@@ -1,0 +1,337 @@
+body{
+    font-family: "El Messiri", sans-serif ;
+}
+
+button{
+    font-weight: bold;
+    font-family: "El Messiri", sans-serif;  
+}
+
+.projects-topside{
+    color: #0756A5;
+}
+.projectNav{
+    background-color: #0756A5;
+    height: 70px;
+}
+
+.arrow-left{
+    position: absolute;
+    left: 0;
+}
+@media(max-width:993px){
+    .slide-none{
+        display: none !important;
+    }
+    .fa-circle-arrow-left{
+        left: 18px !important;
+    }
+    .fa-circle-arrow-right{
+       right: -4px !important; 
+    }
+}
+
+
+.fa-circle-arrow-left{
+    position: absolute;
+    top: 40%;
+    left: -10px;
+    transform: translate(-50%, 50%);
+    color: #0756A5;
+    cursor: pointer;
+
+}
+.fa-circle-arrow-right{
+    position: absolute;
+    top: 40%;
+    right: -35px;
+    transform: translate(-50%, 50%);
+    color: #0756A5;
+    cursor: pointer;
+}
+.bg-project{
+    background-color: #F5F5F5;
+}
+
+
+
+
+@media(max-width: 768px){
+    .projectNav{
+        height: 120px;
+    }
+    .previous-next-btn{
+        width: 50%;
+    }
+}
+.projectNav p{
+    direction: rtl;
+}
+.projectNav label i{
+    position: absolute;
+    color: #0756A5;
+    left: 33%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+}
+.nav-dropdown{
+    font-size: 10px;
+    color: white;
+}
+.dropdown{
+    font-size: 9px;
+    color: white;  
+}
+input{
+    border-radius: 10px;
+    border: none;
+    color: #0F72D6;
+    padding-left: 50px;
+    height: 32px;
+}
+
+/* Start Cards */
+.bg-card{
+    background-image: url('../images/servicesImg.jpeg');
+    background-size: cover;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-details{
+    background-color: #0756A5;
+    color: white;
+}
+.precentage-bar{
+    font-size: 7px;
+}
+.the-bar{
+    background-color: white;
+    height: 11px;
+}
+.blue-bar{
+    background-color: #0F72D6;
+    height: 11px;
+}
+.card-btn{
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid #0756A5 2px;
+}
+.project-page-btn{
+    width: 20%;
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* End Cards */
+
+/* --------------------------------------------------- */
+
+                             /* Unit Page */
+/* Start Unit */
+.text{
+    color: #ABABAB;
+}
+.next{
+    color: #0756A5;
+    cursor: pointer;
+}
+.next p:hover, .next i:hover{
+    color: black;
+}
+.previous{
+    color: #ABABAB;
+    cursor: pointer;
+}
+.previous p:hover, .previous i:hover{
+    color: black;
+}
+.unit-img{
+    background-image: linear-gradient(#4343434D,#4343434D,#4343434D), url('../images/Mask-group.png');
+    background-size: cover;
+    background-position: center;
+    height: 555px;
+    border-radius: 10px;
+}
+/* Unit Details */
+.unit-desc-bg{
+    background-color: #F0F0F0;
+    border-radius: 10px;
+}
+.right-to-left{
+    direction: rtl;
+}
+.left-to-right{
+    direction: ltr;
+}
+.unite-line-desc{
+    border: solid #D8D8D8 1px;
+    height: 0;
+}
+/* End Unit */
+
+
+/* Start Contact Us */
+.contactUs{
+    background-color: #0756A5;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: -5;
+}
+.message{
+    direction: rtl;
+    z-index: 10;
+}
+.label input{
+    direction: rtl;
+    height: 60px;
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 10px;
+    color: white;
+    z-index: 5;
+}
+.your-mail{
+    height: 200px;
+}
+.contact-section{
+    z-index: 5;
+}
+.contactUs button, .contactUs label, .contactUs input, .contactUs .message ,.contactUs p{
+    z-index: 10;
+}
+.contactUs .contact-section{
+    z-index: 10;
+}
+.your-mail{
+    z-index: 10;
+}
+.contact-btn{
+    z-index: 10;
+}
+.absolute-img{
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    opacity: 10%;
+}
+.contactUs div div{
+    z-index: 10;
+}
+/* End Contact Us */
+/* --------------------------------------------------------- */
+
+
+                            /* Start Contzct Us Page */
+.contact-withUS-img{
+    background-image: url('../images/Mask-group-Gray.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+}
+.contact-withUS-img h1{
+    font-size: 73px;
+}
+.contact-withUS-img-right-side{
+    background-color: #0756A5;
+    color: #555555;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.contact-withUS-img-right-side .your-mail{
+    border: solid #555555 1px;
+}
+.contact-withUS-right-side .label input{
+    border: solid #555555 1px;
+    height: 50px; 
+    color: #555555;
+}
+.map iframe{
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------------- */
+
+
+
+                                    /* Sale With Us Page */
+
+.sec-2-img{
+    background-image: linear-gradient(#4343434D,#4343434D,#4343434D) ,url('../images/Mask-group.png');
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.bg{
+    background-color: #F5F5F5;
+}
+.Project-slide-title-rightSide-sales h1{
+    font-size: 47px;
+}
+.Project-slide-title-rightSide-sales p{
+    font-size: 25px;
+}
+.border-radius-class{
+    border-radius: 10px;
+}
+.bg-gray{
+    background-color: #EEEEEE;
+}
+.circle{
+    width: 58px;
+    height: 58px;
+    border: solid #8B8B8B 1px;
+    border-radius: 50%;
+}
+.white-circle{
+    width: 58px;
+    height: 58px;
+    border: solid white 1px;
+    border-radius: 50%;
+}
+@media(max-width: 600px){
+    .sec-2 .section-4-btns div a{
+        width: 100% !important;
+    }
+    .raise-btn  {
+        width: 75% !important;
+    }
+}
+
+.oral-section{
+    font-size: 14px;
+}
+.oral-1{
+    height: 250px;
+}
+
+.oral-2{
+    height: 260px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+.oral-3{
+    border-radius: 10px;
+    height: 200px;
+}
+.oral-4{
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    height: 150px;
+}
+.oral-5{
+    height: 134px;
+}
+.oral-6{
+    height: 190px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}

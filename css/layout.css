@@ -1,0 +1,81 @@
+body{
+    font-family: "El Messiri", sans-serif ;
+    color: #707070;
+}
+
+button{
+    font-weight: bold;
+    font-family: "El Messiri", sans-serif;  
+}
+
+/* Start Navbar */
+.btn-abaad{
+    background-color: #0756A5;
+    color: white;
+    border: solid #0756A5 2px;
+    width: 180px;
+    transition: 0.5s;
+}
+.btn-abaad:hover{
+    background-color: transparent;
+    color: #0756A5;
+    border: solid #0756A5 2px;
+}
+.arabic{
+    color: #d9d9d9;
+}
+.arabic span {
+    color: #2DDF00 !important;
+    font-size: 16px;
+}
+li.dropdown::marker{
+    display: none !important;
+}
+.nav-2{
+    direction: rtl;
+}
+.active{
+    color: #0756A5 !important;
+}
+.active::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    border: solid #0756A5 1px;
+    bottom: 7px;
+    right: 8px;
+}
+.page-hov:hover{
+    color: #0756A5 !important;
+}
+/* End Navbar */
+
+
+
+
+/* Start Footer */
+footer{
+    background-color: #0756A5;
+    color: white;
+}
+.footer-top img{
+    height: 60px;
+}
+.footer-top ul{
+    list-style: none;
+}
+.footer-top ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-med-left p{
+    font-size: 20px;
+}
+.footer-med-left i{
+    rotate: 45deg;
+}
+.footer-bottom{
+    border-top: solid #0F72D6 1px;
+}
+/* End Footer */
+
